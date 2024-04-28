@@ -34,27 +34,4 @@
 2. Run CourseRegistrationMain.java for the backend.
 3. Keep both frontend and backend running in separate terminals.
 
-# Individual Contributions
-
-## Akshit
-
-Course Tables, Session, Authentication with JWTs & Course  Endpoints
-
-## Sarthak
-
-User Endpoints, User Controllers
-
-## Divya
-
-Navbar & Signout Logic, Admin Endpoints
-
-## Ayush
-
-SigIn & Sign up, Data Mangement
-
-## Zakir
-
-Routing & Error Handling , Endpoint Response
-
-
 ## Video Presentation [link](https://drive.google.com/file/d/1AfeaZwWEJWxWGNoTrtQcB7CuJmRClXtC/view)
