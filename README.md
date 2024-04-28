@@ -35,3 +35,7 @@
 3. Keep both frontend and backend running in separate terminals.
 
 ## Video Presentation [link](https://drive.google.com/file/d/1AfeaZwWEJWxWGNoTrtQcB7CuJmRClXtC/view)
+
+## Author
+
+Mohammed Zakir Memon
