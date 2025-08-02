@@ -1,41 +1,62 @@
-# JavaProject - Group 05
+# 🎓 CampusFlow – Smart Course Management Platform
 
-## Features
+CampusFlow is a full-stack course enrollment platform designed to streamline student-instructor interactions, enhance scheduling efficiency, and support data-informed academic planning through scalable infrastructure and real-time insights.
 
-1. Log in using existing credentials.
-2. Register a new account.
-3. Secure access using JWT tokens.
-4. Browse and search available courses.
-5. View detailed course information such as description, schedule, instructor, and seat availability.
-6. Add courses to your schedule.
-7. Drop enrolled courses as needed.
+## 🚀 Key Features
 
-## Technology Stack
+- 🔐 **Secure Authentication** – User login & registration with JWT-based session management  
+- 📚 **Course Discovery** – Search and filter courses with real-time updates on availability, timing, and instructor info  
+- 🗓️ **Personal Schedule Manager** – Add or drop courses with automatic conflict checks and live seat tracking  
+- 📈 **Enrollment Analytics** – Track enrollment trends and student engagement via admin dashboards (planned)  
+- 📢 **Event Notifications** – Receive alerts on registration deadlines, course waitlists, and system-wide updates (planned)
 
-1. JAVA
-2. SPRING BOOT
-3. JAVA SCRIPT
-4. CSS
-5. HTML
-6. MONGODB (DATABASE)
-7. REACT
-8. VITE
+## 🧠 Tech Stack
 
-## Future Enhancements
+| Layer          | Technology                         |
+|----------------|------------------------------------|
+| Frontend       | **React**, Vite, JavaScript, HTML, CSS |
+| Backend        | **Java**, Spring Boot              |
+| Authentication | JWT (JSON Web Tokens)              |
+| Database       | **MongoDB**                        |
+| Deployment     | Run locally via terminal or deploy on any cloud stack |
 
-1. Enable students to drop courses within deadlines without penalties, with administrative tools for managing cancellations.
-2. Provide notifications to students regarding important registration dates, course openings, waitlist status changes, and other relevant updates.
-3. Assist students in scheduling their academic courses through tools for course searching, schedule conflict checking, and timetable optimization.
-4. Generate reports on course enrollment trends, student demographics, and other metrics for academic planning and resource allocation.
+## 🔧 Architecture Overview
 
-## HOW TO RUN
+- **Frontend** served via Vite for optimized dev experience and fast HMR
+- **Backend** REST APIs built with Spring Boot (`CourseRegistrationMain.java`) for modular service separation
+- **JWT tokens** securely handle session management across routes
+- **MongoDB schema** models users, courses, and enrollment records for dynamic retrieval
 
-1. Install dependencies for the frontend using npm i, then start with npm run dev.
-2. Run CourseRegistrationMain.java for the backend.
-3. Keep both frontend and backend running in separate terminals.
+## 🧭 Getting Started
 
-## Video Presentation [link](https://drive.google.com/file/d/1AfeaZwWEJWxWGNoTrtQcB7CuJmRClXtC/view)
+### 🖥️ Frontend
+```bash
+cd frontend/
+npm install
+npm run dev
+```
 
-## Author
+### ☕ Backend
+Open the project in your IDE and run:
+```java
+CourseRegistrationMain.java
+```
 
-Mohammed Zakir Memon
+Ensure both services are running in parallel.
+
+## 📹 Demo Video
+
+▶️ [Watch the live walkthrough](https://drive.google.com/file/d/1AfeaZwWEJWxWGNoTrtQcB7CuJmRClXtC/view)
+
+## 📌 Future Enhancements
+
+- ⏰ Course drop logic with deadline constraints and approval workflows  
+- 📬 Email/SMS notifications for registration, waitlists, and drop confirmations  
+- 📊 Data dashboards for faculty to assess course popularity and forecast demand  
+- 📅 Timetable optimization and clash detection for students during enrollment
+
+## 👨‍💻 Author
+
+**Mohammed Zakir Memon**  
+> Full-stack engineer with focus on scalable backend systems and React-based UI.  
+> Reach out for collaboration or deployment consulting.
